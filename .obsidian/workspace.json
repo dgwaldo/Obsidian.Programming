@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "20ecae3de881cd31",
+    "type": "split",
+    "children": [
+      {
+        "id": "adac6dc6b507455f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d5d5fac9601c447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "decbd4671c0d17d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f5b0aa4cacb64ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78fb2129e3881e31",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e692ec894bbc7641",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db6cebb94a982199",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9fec4ab27de0a51d",
+    "type": "split",
+    "children": [
+      {
+        "id": "45907799dd293665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3060a6205e934365",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1bf965f80a0b2ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "86cebb9990d52a08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f23f51501dbe58c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9d5d5fac9601c447",
+  "lastOpenFiles": []
+}
