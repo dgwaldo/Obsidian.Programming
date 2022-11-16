@@ -8,18 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d5d5fac9601c447",
+            "id": "5ca8cd8091fce198",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+                "file": "Docker/Containers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c19479ce99d9a52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clean Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19541c37b1fff5e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Domain Driven Design (DDD)/Aggregate Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "007a74aca449de1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clean Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02d8813c355d555b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clean Code.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+                "file": "Clean Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+                "file": "Clean Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md"
+                "file": "Clean Code.md"
               }
             }
           }
@@ -136,6 +185,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9d5d5fac9601c447",
-  "lastOpenFiles": []
+  "active": "78fb2129e3881e31",
+  "lastOpenFiles": [
+    "Pulling Azure SQL Data to LocalDB.md",
+    "Hangfire Background Tasks & Context.md",
+    "_img/Pasted image 20221116115131.png",
+    "Clean Code.md",
+    "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+    "Domain Driven Design (DDD)/CQS Crash Course.md",
+    "Domain Driven Design (DDD)/Aggregate Design.md",
+    "Docker/Containers.md",
+    "Docker/Elastic & Kibana.md"
+  ]
 }

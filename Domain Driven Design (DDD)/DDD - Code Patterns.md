@@ -1,3 +1,9 @@
+## Identity of Aggregates in the DB
+[CQS versus server generated IDs (ploeh.dk)](https://blog.ploeh.dk/2014/08/11/cqs-versus-server-generated-ids/)
+[CQS and server-generated Entity IDs (ploeh.dk)](https://blog.ploeh.dk/2016/05/06/cqs-and-server-generated-entity-ids/)
+
+Use Guids & Ids because of query perforance. 
+
 ## The Creation of Aggregate Roots
 [Don’t Create Aggregate Roots (udidahan.com)](https://udidahan.com/2009/06/29/dont-create-aggregate-roots/)
 
@@ -13,7 +19,6 @@ public class DivisionAddedCommand {
 		var division = company.AddDivision(m.DivisionInfo);
 		_divisionRepo.Add(division);
 	}
-	
 }
 ```
 
@@ -36,7 +41,9 @@ public class Team {
 
 Given the above Team class, if you use an ORM such as EF, you can persist the entire object graph with the navigation properties. If you use a lightwigh ORM such as Dapper all the navigation properties will need persisted individually. This additional work will show up as more code in the aggregate repositories using lightweight ORMs.
 
-This pattern is works very well with Dapper when additional data (the navigation properties) can be stored as JSON fields in the database, and act as value objects within the aggregate.
+This pattern is works very well with Dapper when additional data (the navigation properties) can be stored as JSON fields in the database, and act as value objects within the aggregate. 
+
+Another benifit of this pattern is if invalid data ever gets into the DB, from bugs etc., when aggregates are rehydrated they won't error as no validation is done on hydration through the constructor.  Testing is also facilitated by this pattern as the aggregate can easily be hydrated to a certain state. 
 
 ## Firing & Responding to Domain Events 
 [Using Domain Events within a .NET Core Microservice - Cesar de la Torre (microsoft.com)](https://devblogs.microsoft.com/cesardelatorre/using-domain-events-within-a-net-core-microservice/)
