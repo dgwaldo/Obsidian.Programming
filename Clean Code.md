@@ -49,3 +49,21 @@ Be liberal in what you accept for input, but strict in output. [Robustness princ
 
 ## Feature Flags over branches
 Prefer feature flags to long lived feature branches. This way code stays up to date on the mainline.
+
+## Strangler Pattern for Complex Refactoring
+Side by side change instead of inplace changes.
+
+Use method overloads to change contracts within the codebase. First add the new method just to the affected class. Then switch code to use the new method as you can, leaving all of the old method calls. Once the change is made, remove the original old method, and finally add it back to the interface.  Finally pull the old interface definitions.
+
+Take small, safe steps that can be frequently commited back to main. 
+
+Another pattern that may be effective is creating a new class and inheriting the new class from the class needing to be replaced. 
+
+## Return Clean Generics
+Avoid writing methods that return nested generics type definitions.
+
+This is less desirable.
+IEnumerable<Thing<IEnumerbale>>
+
+This is more desirable.
+IEnumerable<Thing>
