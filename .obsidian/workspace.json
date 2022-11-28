@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Code.md",
+                "file": "Docker/Elastic & Kibana.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clean Code.md",
+                "file": "Docker/Elastic & Kibana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clean Code.md",
+                "file": "Docker/Elastic & Kibana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clean Code.md"
+                "file": "Docker/Elastic & Kibana.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "6c19479ce99d9a52",
   "lastOpenFiles": [
-    "Domain Driven Design (DDD)/DDD - Code Patterns.md",
     "Clean Code.md",
+    "2022-11-28.md",
+    "Docker/Elastic & Kibana.md",
     "Git Commands.md",
+    "Domain Driven Design (DDD)/DDD - Code Patterns.md",
     "Pulling Azure SQL Data to LocalDB.md",
     "Hangfire Background Tasks & Context.md",
     "_img/Pasted image 20221116115131.png",
     "Domain Driven Design (DDD)/CQS Crash Course.md",
-    "Domain Driven Design (DDD)/Aggregate Design.md",
-    "Docker/Containers.md",
-    "Docker/Elastic & Kibana.md"
+    "Domain Driven Design (DDD)/Aggregate Design.md"
   ]
 }
