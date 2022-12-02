@@ -67,3 +67,9 @@ IEnumerable<Thing<IEnumerbale>>
 
 This is more desirable.
 IEnumerable<Thing>
+
+
+## Favor Parsing over Mapping
+
+Data should move from abstract to more concrete. For example data coming in over the wire on JSON is going to be strings or numbers. From this representation, data needs to be mapped to something more concrete. 
+
