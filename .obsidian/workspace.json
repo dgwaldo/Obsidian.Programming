@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "adac6dc6b507455f",
+        "id": "65f994d900f172c3",
         "type": "tabs",
         "children": [
           {
-            "id": "6c19479ce99d9a52",
+            "id": "7a7c34182f82458b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clean Code.md",
+                "file": "Domain Driven Design (DDD)/Value Objects.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "273526578c28aa8d",
+            "id": "b6c212a1e5abd8db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Elastic & Kibana.md",
+                "file": "Domain Driven Design (DDD)/Validation in DDD Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Elastic & Kibana.md",
+                "file": "Domain Driven Design (DDD)/Validation in DDD Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Elastic & Kibana.md",
+                "file": "Domain Driven Design (DDD)/Validation in DDD Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Elastic & Kibana.md"
+                "file": "Domain Driven Design (DDD)/Validation in DDD Objects.md"
               }
             }
           }
@@ -146,20 +146,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "273526578c28aa8d",
+  "active": "b6c212a1e5abd8db",
   "lastOpenFiles": [
-    "Docker/Containers.md",
-    "Quick Notes - Things to try in the codebase.md",
+    "Domain Driven Design (DDD)/Value Objects.md",
     "Clean Code.md",
-    "Domain Driven Design (DDD)/DDD - Code Patterns.md",
-    "Git Commands.md",
-    "Pulling Azure SQL Data to LocalDB.md",
+    "Domain Driven Design (DDD)/Aggregate Design.md",
+    "JSON Serialization (Newtonsoft).md",
+    "_img/Pasted image 20221116114637.png",
     "Hangfire Background Tasks & Context.md",
-    "_img/Pasted image 20221116115131.png",
-    "Domain Driven Design (DDD)/CQS Crash Course.md",
-    "Domain Driven Design (DDD)/Aggregate Design.md"
+    "_img/Pasted image 20221116114647.png",
+    "_img/Pasted image 20221116114727.png",
+    "_img/Pasted image 20221116114737.png",
+    "_img/Pasted image 20221116114759.png"
   ]
 }

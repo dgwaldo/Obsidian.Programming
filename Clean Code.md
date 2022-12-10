@@ -47,6 +47,9 @@ Be liberal in what you accept for input, but strict in output. [Robustness princ
 ## Be careful with ORM's 
 [Object-Relational Mapping is the Vietnam of Computer Science (codinghorror.com)](https://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/)
 
+* Dapper 
+	* Provides just enough help over raw ADO.NET to be helpful without being bloated.
+
 ## Feature Flags over branches
 Prefer feature flags to long lived feature branches. This way code stays up to date on the mainline.
 
