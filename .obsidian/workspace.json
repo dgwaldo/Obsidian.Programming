@@ -13,7 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Elastic & Kibana.md",
                 "file": "Domain Driven Design (DDD)/Value Objects.md",
                 "mode": "source",
                 "source": false
@@ -26,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domain Driven Design (DDD)/Validation in DDD Objects.md",
+                "file": "Domain Driven Design (DDD)/Value Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Domain Driven Design (DDD)/Validation in DDD Objects.md",
+                "file": "Domain Driven Design (DDD)/Value Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Domain Driven Design (DDD)/Validation in DDD Objects.md",
+                "file": "Domain Driven Design (DDD)/Value Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Domain Driven Design (DDD)/Validation in DDD Objects.md"
+                "file": "Domain Driven Design (DDD)/Value Objects.md"
               }
             }
           }
@@ -151,15 +150,15 @@
   },
   "active": "b6c212a1e5abd8db",
   "lastOpenFiles": [
+    "Domain Driven Design (DDD)/Validation in DDD Objects.md",
+    "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+    "Domain Driven Design (DDD)/Aggregate Design.md",
+    "Domain Driven Design (DDD)/CQS Crash Course.md",
     "Domain Driven Design (DDD)/Value Objects.md",
     "Clean Code.md",
-    "Domain Driven Design (DDD)/Aggregate Design.md",
     "JSON Serialization (Newtonsoft).md",
     "_img/Pasted image 20221116114637.png",
     "Hangfire Background Tasks & Context.md",
-    "_img/Pasted image 20221116114647.png",
-    "_img/Pasted image 20221116114727.png",
-    "_img/Pasted image 20221116114737.png",
-    "_img/Pasted image 20221116114759.png"
+    "_img/Pasted image 20221116114647.png"
   ]
 }

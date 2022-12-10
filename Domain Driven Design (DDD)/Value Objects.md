@@ -2,7 +2,6 @@
 
 ## Validation
 
-
 ## Creation Patterns
 Value object creation is quite simple when a value object only has three or four properties. However, some value objects have several properties. The options are using a constructor, a factory method or the build pattern. If your approach to validation is to return error messages rather than throw exceptions, then the constructor doesn't work well. This leaves the factory and builder.
 
