@@ -47,6 +47,9 @@ Be liberal in what you accept for input, but strict in output. [Robustness princ
 ## Be careful with ORM's 
 [Object-Relational Mapping is the Vietnam of Computer Science (codinghorror.com)](https://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/)
 
+* Dapper 
+	* Provides just enough help over raw ADO.NET to be helpful without being bloated.
+
 ## Feature Flags over branches
 Prefer feature flags to long lived feature branches. This way code stays up to date on the mainline.
 
@@ -67,3 +70,9 @@ IEnumerable<Thing<IEnumerbale>>
 
 This is more desirable.
 IEnumerable<Thing>
+
+
+## Favor Parsing over Mapping
+
+Data should move from abstract to more concrete. For example data coming in over the wire on JSON is going to be strings or numbers. From this representation, data needs to be mapped to something more concrete. 
+

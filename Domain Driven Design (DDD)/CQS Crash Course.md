@@ -1,5 +1,5 @@
 
-# Summary
+## Summary
 
 Command Query Segregation is one of the primary patterns used in Altus’s Perifor code. This document will outline what it is and how it’s used.
 

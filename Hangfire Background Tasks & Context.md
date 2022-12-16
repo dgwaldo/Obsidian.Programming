@@ -15,8 +15,8 @@ There is another strategy we can use to get context data into Hangfire jobs. Han
 
 The pipeline actions are abstracted to two interfaces: IClientFilter and IServerFilter. When jobs are enqueued, filters of type IClientFilter are invoked.
 
+![[ClientExampleFilter.png]]
 ![](file:///C:/Users/DW/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
-
 Example filter that adds the current user as a Job Parameter to each Hangfire job.
 
 Filter values are pushed into jobs as parameters when enqueued and picked back up when ran. Jobs filters can inherit from JobFilterAtrribute and be scoped per job. Or they can be registered globally.
@@ -31,8 +31,7 @@ The Hangfire documentation gives an example of filters, it’s worth a read. How
 ## Activators
 
 Hangfire, has another concept called an activator. Activators, like filters may be set per job or registered globally. They give access to the jobs context, parameters, method invoked, and the DI scope used for the job. We can use the activator to pull values out of the jobs parameters and do something with it.  Below is an example where a job parameter is pulled from the current job and used to set a property on a scoped service.
-
-![](file:///C:/Users/DW/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![[ExampleJobActivator.png]]
 
 Example activator getting value from job and setting it on scoped service
 
@@ -42,8 +41,7 @@ Here you can see we are overriding AspNetCoreJobActivator. If you aren’t using
 
 In ASP.Net Core Hangifre is configured with a set of extensions methods off IServiceCollection. This familiar builder pattern makes setup simple. However, I was unable to find an example that showed how to get access to the DI container. Thankfully, it’s simple. The method AddHangfire has an override that includes ‘provider’, this gives access to the DI container allowing IServiceScopeFactory to be injected into the filter and activator instances.
 
-![](file:///C:/Users/DW/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
-
+![[ConfigureHangfire.png]]
 Hangfire registration with activator and filter instances
 
 *References*:
