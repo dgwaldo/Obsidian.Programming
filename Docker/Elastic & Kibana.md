@@ -1,4 +1,4 @@
-## Expanding Memmory
+## Expanding Memory
 
 *Note:* So far have not found how to persist these settings.
 

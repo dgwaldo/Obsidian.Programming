@@ -30,6 +30,8 @@ Aggregates may sometimes need data from other aggregates. There are many approac
 
 Aggregates should prevent their internal state from becoming invalid. Methods within aggregate classes should prevent setting of invalid state, and ideally report any warnings/errors back to the consumer. Aggregates should be in a valid state before they are persisted back to the database.
 
+>In DDD, validation rules can be thought as invariants. The main responsibility of an aggregate is to enforce invariants across state changes for all the entities within that aggregate.
+
 Ref: [Microsoft Word - Immutability-Changes-Everything-141121a.docx (cidrdb.org)](http://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper16.pdf)
 
 ## Small Aggregates
@@ -59,3 +61,11 @@ Update other aggregates eventually. Eventual consistency takes a little differen
 Ref: [Memories, Guesses, and Apologies - PatHelland's WebLog - Site Home - MSDN Blogs (archive.org)](https://web.archive.org/web/20100722052618/http:/blogs.msdn.com/b/pathelland/archive/2007/05/15/memories-guesses-and-apologies.aspx)
 
 Ref: [Race Conditions Don’t Exist (udidahan.com)](https://udidahan.com/2010/08/31/race-conditions-dont-exist/)
+
+
+
+
+
+
+
+

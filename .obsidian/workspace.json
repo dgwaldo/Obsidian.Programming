@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Elastic & Kibana.md",
+                "file": "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40dbb209bf224e63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Domain Driven Design (DDD)/Aggregate Design.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Elastic & Kibana.md",
+                "file": "Domain Driven Design (DDD)/Aggregate Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Elastic & Kibana.md",
+                "file": "Domain Driven Design (DDD)/Aggregate Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Elastic & Kibana.md"
+                "file": "Domain Driven Design (DDD)/Aggregate Design.md"
               }
             }
           }
@@ -136,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6c19479ce99d9a52",
+  "active": "40dbb209bf224e63",
   "lastOpenFiles": [
-    "Clean Code.md",
-    "2022-11-28.md",
+    "Domain Driven Design (DDD)/Validation in DDD (Articles).md",
+    "Domain Driven Design (DDD)/DDD - Code Patterns.md",
     "Docker/Elastic & Kibana.md",
     "Git Commands.md",
-    "Domain Driven Design (DDD)/DDD - Code Patterns.md",
+    "Domain Driven Design (DDD)/Aggregate Design.md",
+    "Clean Code.md",
+    "2022-11-28.md",
     "Pulling Azure SQL Data to LocalDB.md",
     "Hangfire Background Tasks & Context.md",
-    "_img/Pasted image 20221116115131.png",
-    "Domain Driven Design (DDD)/CQS Crash Course.md",
-    "Domain Driven Design (DDD)/Aggregate Design.md"
+    "_img/Pasted image 20221116115131.png"
   ]
 }
